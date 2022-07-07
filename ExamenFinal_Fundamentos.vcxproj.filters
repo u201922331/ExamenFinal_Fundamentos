@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\textures">
+      <UniqueIdentifier>{c4609ceb-9585-4dbf-8dd2-603591616b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\shaders">
+      <UniqueIdentifier>{ce33096a-8376-4396-8be9-8c54a2a3e062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\textures\fondos">
+      <UniqueIdentifier>{f85c3d2f-ec45-44d9-9ae5-6fbef4727d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\fonts">
+      <UniqueIdentifier>{97e14ee1-1f65-4db6-9620-1a10dd45fd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\levels">
+      <UniqueIdentifier>{234f5d29-12f4-4038-8a29-7d539f66e7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Assets">
+      <UniqueIdentifier>{55351e40-e0c9-448d-96c0-5f40860afc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Engine">
+      <UniqueIdentifier>{f0973ec8-8491-42f2-a91c-dcb046b21bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Engine\Core">
+      <UniqueIdentifier>{a3fed043-175d-4971-9a1c-63991ecbead3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Engine\Utils">
+      <UniqueIdentifier>{dac1da81-9aed-4fed-8c78-392b11dc7aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Engine\Input">
+      <UniqueIdentifier>{ac2011d2-a83b-4580-bc82-f64275ebfbe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Entities">
+      <UniqueIdentifier>{0ef1e46f-6231-482a-955a-85539e0daeec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Platformer">
+      <UniqueIdentifier>{a9394c02-6f74-4b7d-9899-3237408db46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Engine\Loader">
+      <UniqueIdentifier>{114bfd10-eb39-44a4-a016-e42a8f689f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Engine\Screen">
+      <UniqueIdentifier>{7993e558-769b-40ad-b761-2121e6747410}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\main.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\main.vert">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="headers\assets\Background.inl">
+      <Filter>Archivos de encabezado\Assets</Filter>
+    </None>
+    <None Include="headers\assets\Button.inl">
+      <Filter>Archivos de encabezado\Assets</Filter>
+    </None>
+    <None Include="headers\engine\core\Camera2D.inl">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </None>
+    <None Include="headers\engine\core\Game.inl">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </None>
+    <None Include="headers\engine\core\GLS_Program.inl">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </None>
+    <None Include="headers\engine\core\Sprite.inl">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </None>
+    <None Include="headers\engine\core\SpriteBacth.inl">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </None>
+    <None Include="headers\engine\core\TextureCache.inl">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </None>
+    <None Include="headers\engine\core\SriteBatch.inl">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </None>
+    <None Include="headers\engine\input\InputManager.inl">
+      <Filter>Archivos de encabezado\Engine\Input</Filter>
+    </None>
+    <None Include="headers\engine\loader\ImageLoader.inl">
+      <Filter>Archivos de encabezado\Engine\Loader</Filter>
+    </None>
+    <None Include="headers\engine\loader\IOManager.inl">
+      <Filter>Archivos de encabezado\Engine\Loader</Filter>
+    </None>
+    <None Include="headers\engine\loader\ResourceManager.inl">
+      <Filter>Archivos de encabezado\Engine\Loader</Filter>
+    </None>
+    <None Include="headers\engine\screen\Window.inl">
+      <Filter>Archivos de encabezado\Engine\Screen</Filter>
+    </None>
+    <None Include="headers\engine\utils\picoPNG.inl">
+      <Filter>Archivos de encabezado\Engine\Utils</Filter>
+    </None>
+    <None Include="headers\engine\utils\Error.inl">
+      <Filter>Archivos de encabezado\Engine\Utils</Filter>
+    </None>
+    <None Include="headers\engine\PapuEngine.inl">
+      <Filter>Archivos de encabezado\Engine</Filter>
+    </None>
+    <None Include="headers\engine\Engine.inl">
+      <Filter>Archivos de encabezado\Engine</Filter>
+    </None>
+    <None Include="headers\entities\Agent.inl">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </None>
+    <None Include="headers\entities\Human.inl">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </None>
+    <None Include="headers\entities\Player.inl">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </None>
+    <None Include="headers\entities\Zombie.inl">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </None>
+    <None Include="headers\platformer\App.inl">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </None>
+    <None Include="headers\platformer\GamePlayScreen.inl">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </None>
+    <None Include="headers\platformer\Level.inl">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </None>
+    <None Include="headers\platformer\MenuScreen.inl">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </None>
+    <None Include="headers\MainGame.inl">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="headers\SpriteFont.inl">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="headers\engine\screen\ScreenList.inl">
+      <Filter>Archivos de encabezado\Engine\Screen</Filter>
+    </None>
+    <None Include="headers\platformer\GameOverScren.inl">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </None>
+    <None Include="headers\entities\Alien.inl">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </None>
+    <None Include="headers\platformer\Manual.inl">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\amarillo.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\player.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\rojo.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\verde.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\fondos\game.png">
+      <Filter>Archivos de recursos\textures\fondos</Filter>
+    </Image>
+    <Image Include="assets\textures\fondos\gam-over.jpg">
+      <Filter>Archivos de recursos\textures\fondos</Filter>
+    </Image>
+    <Image Include="assets\textures\fondos\menu.png">
+      <Filter>Archivos de recursos\textures\fondos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fonts\Fuente1.ttf">
+      <Filter>Archivos de recursos\fonts</Filter>
+    </Font>
+    <Font Include="assets\fonts\alagard.ttf">
+      <Filter>Archivos de recursos\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\levels\level1.txt">
+      <Filter>Archivos de recursos\levels</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\MainGame.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\ScreenIndices.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\SpriteFont.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\assets\Background.h">
+      <Filter>Archivos de encabezado\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\assets\Button.h">
+      <Filter>Archivos de encabezado\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\entities\Agent.h">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\entities\Human.h">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\entities\Player.h">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\entities\Zombie.h">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\platformer\App.h">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\platformer\GamePlayScreen.h">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\platformer\Level.h">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\platformer\MenuScreen.h">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\Engine.h">
+      <Filter>Archivos de encabezado\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\PapuEngine.h">
+      <Filter>Archivos de encabezado\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\Camera2D.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\GLS_Program.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\GLTexture.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\SpriteBacth.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\TextureCache.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\Vertex.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\input\InputManager.h">
+      <Filter>Archivos de encabezado\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\loader\ImageLoader.h">
+      <Filter>Archivos de encabezado\Engine\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\loader\IOManager.h">
+      <Filter>Archivos de encabezado\Engine\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\loader\ResourceManager.h">
+      <Filter>Archivos de encabezado\Engine\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\screen\IGameScreen.h">
+      <Filter>Archivos de encabezado\Engine\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\screen\ScreenList.h">
+      <Filter>Archivos de encabezado\Engine\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\screen\Window.h">
+      <Filter>Archivos de encabezado\Engine\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\utils\Error.h">
+      <Filter>Archivos de encabezado\Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\utils\picoPNG.h">
+      <Filter>Archivos de encabezado\Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\Game.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\Sprite.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\core\SriteBatch.h">
+      <Filter>Archivos de encabezado\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\platformer\GameOverScren.h">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\entities\Alien.h">
+      <Filter>Archivos de encabezado\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\platformer\Manual.h">
+      <Filter>Archivos de encabezado\Platformer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
